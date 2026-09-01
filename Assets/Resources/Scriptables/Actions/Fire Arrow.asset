@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f31b1a4bab49e704b9a0a4a5f2e8e8a8, type: 3}
+  m_Name: Fire Arrow
+  m_EditorClassIdentifier: 
+  id: 8
+  target: 1
+  element: 1
+  damageType: 1
+  targetDerivedAttribute: 0
+  targetAttribute: 0
+  effects:
+  - gameObject: {fileID: 8462366479945430597, guid: 58e58be7b98951944968ecc6b8b6ed0f,
+      type: 3}
+    delay: 0
+  - gameObject: {fileID: 3813893140682651027, guid: 84d411d581fe49e4992c0d72dc94c77b,
+      type: 3}
+    delay: 0
+  formula:
+    expression: 50 - b.Defence / 2
+  dmgVariance: 10
+  critRate: 5
+  range: 3
+  area: 0

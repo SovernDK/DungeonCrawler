@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bcc3abab15525346a138d4d2fed486e, type: 3}
+  m_Name: Bow
+  m_EditorClassIdentifier: 
+  item:
+    icon: {fileID: 21300000, guid: 8403fa41b8d9ef141990c7ba5c6445ed, type: 3}
+    id: 26
+    name: Bow
+    description: Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum
+    consumable: 0
+    equippable: 1
+    charges: 0
+    maxCharges: 0
+    canBeExhausted: 0
+    turnsToExhausted: 0
+    currentTurnsToExhausted: 0
+    actions:
+    - {fileID: 11400000, guid: 0fb155d57f410594e928857007c658ee, type: 2}
+    type: 0
+    range: 3
+    weaponType: 3
+    isBinded: 0
+    armorType: 0
+    defence: 0
+    resistances: []
+    emptyIcon: {fileID: 0}
+    usable: 0
+    inventorySlots: 0
+    benefits:
+      actionPoints: 0
+      maxHP: 0
+      maxMana: 0
+      might: 40
+      wisdom: 0

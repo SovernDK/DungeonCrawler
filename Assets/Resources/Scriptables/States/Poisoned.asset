@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9396e606e5237da4db306734e3f9bd94, type: 3}
+  m_Name: Poisoned
+  m_EditorClassIdentifier: 
+  state:
+    id: 5
+    icon: {fileID: -4407079044880250823, guid: 49aacc5ce3627274d8f9a1a7a8024075, type: 3}
+    name: Poisoned
+    executeWhen: 0
+    turnsToEnd: 3
+    effects: []
+    actions:
+    - {fileID: 11400000, guid: d1e3ec885aef9c34382c9e55697c651c, type: 2}

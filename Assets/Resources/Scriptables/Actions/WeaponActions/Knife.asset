@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f31b1a4bab49e704b9a0a4a5f2e8e8a8, type: 3}
+  m_Name: Knife
+  m_EditorClassIdentifier: 
+  id: 0
+  target: 1
+  element: 4
+  damageType: 1
+  targetDerivedAttribute: 0
+  targetAttribute: 0
+  effects: []
+  formula:
+    expression: 15 - b.Defence / 2
+  dmgVariance: 10
+  critRate: 5
+  range: 0
+  area: 0

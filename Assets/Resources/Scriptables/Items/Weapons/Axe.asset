@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bcc3abab15525346a138d4d2fed486e, type: 3}
+  m_Name: Axe
+  m_EditorClassIdentifier: 
+  item:
+    icon: {fileID: 1834448095885026636, guid: 9ecd79554b0761a46915488b873450d5, type: 3}
+    id: 25
+    name: Axe
+    description: Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum
+    consumable: 0
+    equippable: 1
+    charges: 0
+    maxCharges: 0
+    canBeExhausted: 0
+    turnsToExhausted: 0
+    currentTurnsToExhausted: 0
+    actions:
+    - {fileID: 11400000, guid: 835613bcf13ec5c418bcd5cd95f5e17b, type: 2}
+    type: 0
+    range: 1
+    weaponType: 1
+    isBinded: 0
+    armorType: 0
+    defence: 0
+    resistances: []
+    emptyIcon: {fileID: 0}
+    usable: 0
+    inventorySlots: 0
+    benefits:
+      actionPoints: 0
+      maxHP: 0
+      maxMana: 0
+      might: 25
+      wisdom: 0

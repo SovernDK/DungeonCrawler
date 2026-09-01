@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+  m_Name: WeaponCameraVolume Profile
+  m_EditorClassIdentifier: 
+  components:
+  - {fileID: 7163339795495065789}
+--- !u!114 &7163339795495065789
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77020addde3f8143b8e39abdd03ad9d, type: 3}
+  m_Name: RetroGameShaderVolume
+  m_EditorClassIdentifier: 
+  active: 0
+  enable:
+    m_OverrideState: 1
+    m_Value: 1
+  pixelSize:
+    m_OverrideState: 1
+    m_Value: 2
+  gamma:
+    m_OverrideState: 0
+    m_Value: 0.4
+  gradation:
+    m_OverrideState: 0
+    m_Value: 12
+  dither:
+    m_OverrideState: 1
+    m_Value: 0
+  crtTexture:
+    m_OverrideState: 0
+    m_Value: {fileID: 2800000, guid: fc9e0314b2251ba40815567405dd4b4b, type: 3}
+    dimension: 1
+  crtColorGain:
+    m_OverrideState: 0
+    m_Value: 1
+  crtTextureScale:
+    m_OverrideState: 0
+    m_Value: 2
+  crtCurve:
+    m_OverrideState: 0
+    m_Value: 0.02
+  grayScaleFactor:
+    m_OverrideState: 0
+    m_Value: {x: 0.14, y: 0.7152, z: 0.0722}
+  grayScaleRatio:
+    m_OverrideState: 0
+    m_Value: 0

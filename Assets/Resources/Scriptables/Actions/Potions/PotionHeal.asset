@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bca566d1cf8a4f0a8b78ab37e00baa0, type: 3}
+  m_Name: PotionHeal
+  m_EditorClassIdentifier: 
+  id: 16
+  target: 0
+  element: 0
+  derivedAttribute: 0
+  effects:
+  - gameObject: {fileID: 7609097964523742728, guid: 338e3a644cf624cafadc8de17392264e,
+      type: 3}
+    delay: 0
+  - gameObject: {fileID: 339071080222656385, guid: 5e8849800febd421d9ac9e4eff7dbc58,
+      type: 3}
+    delay: 0
+  formula:
+    expression: 50

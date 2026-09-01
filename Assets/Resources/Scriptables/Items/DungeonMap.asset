@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bcc3abab15525346a138d4d2fed486e, type: 3}
+  m_Name: DungeonMap
+  m_EditorClassIdentifier: 
+  item:
+    icon: {fileID: -1922007034864553754, guid: 39b4f9d48ae2ecf40a770956854d9448, type: 3}
+    id: 15
+    name: Dungeon map
+    description: 
+    consumable: 0
+    equippable: 0
+    charges: 0
+    maxCharges: 0
+    canBeExhausted: 0
+    turnsToExhausted: 0
+    currentTurnsToExhausted: 0
+    actions:
+    - {fileID: 11400000, guid: e6af3c3e68f01094b880b584bfadcf24, type: 2}
+    type: 3
+    range: 0
+    weaponType: 0
+    isBinded: 0
+    armorType: 0
+    defence: 0
+    resistances: []
+    emptyIcon: {fileID: 0}
+    usable: 1
+    inventorySlots: 0
+    benefits:
+      actionPoints: 0
+      maxHP: 0
+      maxMana: 0
+      might: 0
+      wisdom: 0

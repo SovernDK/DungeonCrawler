@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bcc3abab15525346a138d4d2fed486e, type: 3}
+  m_Name: Backpack
+  m_EditorClassIdentifier: 
+  item:
+    icon: {fileID: 34940329261748390, guid: 41e296769b1a5d64f9a0e97ee5d4c17f, type: 3}
+    id: 13
+    name: Backpack
+    description: 
+    consumable: 0
+    equippable: 0
+    charges: 0
+    maxCharges: 0
+    canBeExhausted: 0
+    turnsToExhausted: 0
+    currentTurnsToExhausted: 0
+    actions: []
+    type: 5
+    range: 0
+    weaponType: 0
+    isBinded: 0
+    armorType: 0
+    defence: 0
+    resistances: []
+    emptyIcon: {fileID: 0}
+    usable: 0
+    inventorySlots: 8
+    benefits:
+      actionPoints: 0
+      maxHP: 0
+      maxMana: 0
+      might: 0
+      wisdom: 0

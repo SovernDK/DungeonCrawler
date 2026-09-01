@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bcc3abab15525346a138d4d2fed486e, type: 3}
+  m_Name: Knife
+  m_EditorClassIdentifier: 
+  item:
+    icon: {fileID: -6574319434776391074, guid: 9ecd79554b0761a46915488b873450d5, type: 3}
+    id: 28
+    name: Knife
+    description: This knife quality leaves much to be desired, must've been made
+      in [Country].
+    consumable: 0
+    equippable: 1
+    charges: 0
+    maxCharges: 0
+    canBeExhausted: 0
+    turnsToExhausted: 0
+    currentTurnsToExhausted: 0
+    actions:
+    - {fileID: 11400000, guid: eb5f1f5ede71d044ab9f412d4e3d0af7, type: 2}
+    - {fileID: 11400000, guid: 1856bc2481b4af84fb2cc8859dd6d22d, type: 2}
+    type: 0
+    range: 1
+    weaponType: 3
+    isBinded: 0
+    armorType: 0
+    defence: 0
+    resistances: []
+    emptyIcon: {fileID: 0}
+    usable: 0
+    inventorySlots: 0
+    benefits:
+      actionPoints: 0
+      maxHP: 0
+      maxMana: 0
+      might: 15
+      wisdom: 0

@@ -1,0 +1,395 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7211042396699239913
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8813781431033475240}
+  - component: {fileID: 7955894561559987898}
+  m_Layer: 0
+  m_Name: PoolManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &8813781431033475240
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7211042396699239913}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.319403, y: -2.6274016, z: 1.540889}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7955894561559987898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7211042396699239913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b17e262e0030a44ea972cf2b49fd2f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pools:
+  - poolName: Empty
+    objectToPool: {fileID: 6782479486703960301, guid: 74671703c786b194e97d40d3c4adc2f6,
+      type: 3}
+    amountToPool: 1
+    shouldExpand: 0
+    pooledObjects: []
+  - poolName: Bat
+    objectToPool: {fileID: 8127862858140258419, guid: b7a8d49feb17a4e7ea4e49915c1ade95,
+      type: 3}
+    amountToPool: 2
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: FishmanWarlock
+    objectToPool: {fileID: 5965507805444946939, guid: a325d03fb9098e547a9434dabe5ee3c8,
+      type: 3}
+    amountToPool: 2
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: FishmanWarrior
+    objectToPool: {fileID: 5965507805444946939, guid: 2b80d8570d8030342841cb83a71fe221,
+      type: 3}
+    amountToPool: 2
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: BleedingFx
+    objectToPool: {fileID: 339071080222656385, guid: db72659f789219f42a234136d62cfb42,
+      type: 3}
+    amountToPool: 2
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: BurningFx
+    objectToPool: {fileID: 8462366479945430597, guid: 1c11330d5dfa0464988fb06eb294cd46,
+      type: 3}
+    amountToPool: 2
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: DisarmFx
+    objectToPool: {fileID: 339071080222656385, guid: 808281bc156075649b1b926a3bc4683d,
+      type: 3}
+    amountToPool: 2
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: FirearrowFx
+    objectToPool: {fileID: 8462366479945430597, guid: 58e58be7b98951944968ecc6b8b6ed0f,
+      type: 3}
+    amountToPool: 2
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: FireballFx
+    objectToPool: {fileID: 8462366479945430597, guid: 2be565489dc934cd9bf8e2ca568daa6f,
+      type: 3}
+    amountToPool: 2
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: HealFx
+    objectToPool: {fileID: 339071080222656385, guid: 5e8849800febd421d9ac9e4eff7dbc58,
+      type: 3}
+    amountToPool: 2
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: MagicCircleFx
+    objectToPool: {fileID: 7609097964523742728, guid: 338e3a644cf624cafadc8de17392264e,
+      type: 3}
+    amountToPool: 2
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: PoisonFx
+    objectToPool: {fileID: 339071080222656385, guid: 9f74b7d068663f546882304e87574055,
+      type: 3}
+    amountToPool: 2
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: SleepFx
+    objectToPool: {fileID: 339071080222656385, guid: f23e9fc292af9ec4e815159f4ff23859,
+      type: 3}
+    amountToPool: 2
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: Player
+    objectToPool: {fileID: 6782479486703960301, guid: 3c55ad6a96e33498191ee8a91d013ee8,
+      type: 3}
+    amountToPool: 1
+    shouldExpand: 0
+    pooledObjects: []
+  - poolName: BleedingSx
+    objectToPool: {fileID: 3813893140682651027, guid: b3738b9412291dc49af5af9021187f47,
+      type: 3}
+    amountToPool: 2
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: BlockSx
+    objectToPool: {fileID: 3813893140682651027, guid: efdac4081b2892a478260f575067c4e4,
+      type: 3}
+    amountToPool: 2
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: BluntSx
+    objectToPool: {fileID: 3813893140682651027, guid: 8c1862ab3e8033a4a92d3436509e2ddd,
+      type: 3}
+    amountToPool: 2
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: BowSx
+    objectToPool: {fileID: 3813893140682651027, guid: 9f783e74c4e8bcc4fa89964f5819cfbb,
+      type: 3}
+    amountToPool: 2
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: BuffSx
+    objectToPool: {fileID: 3813893140682651027, guid: 344639c9d417cfb429db85ee5850fdc5,
+      type: 3}
+    amountToPool: 2
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: DisarmSx
+    objectToPool: {fileID: 3813893140682651027, guid: 4ab3e7dba2cbe9448b917202e0736cb1,
+      type: 3}
+    amountToPool: 2
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: ExplosionSx
+    objectToPool: {fileID: 3813893140682651027, guid: 2034eda34bbc9c94e875bdbf88a89f4e,
+      type: 3}
+    amountToPool: 2
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: FireHitSx
+    objectToPool: {fileID: 3813893140682651027, guid: 84d411d581fe49e4992c0d72dc94c77b,
+      type: 3}
+    amountToPool: 2
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: FishmanDamagedSx
+    objectToPool: {fileID: 3813893140682651027, guid: b7d98997152e3aa49895ef38c12316a8,
+      type: 3}
+    amountToPool: 2
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: FootstepsSx
+    objectToPool: {fileID: 3813893140682651027, guid: c1503696c583a1841906e90f47148c9e,
+      type: 3}
+    amountToPool: 2
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: HealSx
+    objectToPool: {fileID: 3813893140682651027, guid: 034dba5e03943aa46b392d3d3826bbe3,
+      type: 3}
+    amountToPool: 2
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: SwordOnFleshSx
+    objectToPool: {fileID: 3813893140682651027, guid: 5b1af0bcf94e61142aadf871608a0256,
+      type: 3}
+    amountToPool: 2
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: Banner
+    objectToPool: {fileID: 6123134028013773496, guid: fd9337a2f423baf448968b9b40942000,
+      type: 3}
+    amountToPool: 10
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: Bench
+    objectToPool: {fileID: 8747451719753291595, guid: 97abfd1a0ac79f445b541f1eef1189b0,
+      type: 3}
+    amountToPool: 10
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: Carpet_Green
+    objectToPool: {fileID: 1033534008994006101, guid: 868cd4f99062d0047846715500da7a41,
+      type: 3}
+    amountToPool: 10
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: Carpet_Red
+    objectToPool: {fileID: 1667736552265734482, guid: 78648932019c91d4d807260e4cf984a6,
+      type: 3}
+    amountToPool: 10
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: Chair
+    objectToPool: {fileID: 5228586624671849793, guid: 5b38f1434f833f547bf8308b5d9c6693,
+      type: 3}
+    amountToPool: 10
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: Desk
+    objectToPool: {fileID: 3969449888320953976, guid: 874ea169f408d7b49ad7e8f202488d5d,
+      type: 3}
+    amountToPool: 10
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: LargePillar
+    objectToPool: {fileID: 639695653133331315, guid: aa62bce3018927c43850baaa91ca3e3a,
+      type: 3}
+    amountToPool: 10
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: Shelf
+    objectToPool: {fileID: 3427857930745797136, guid: d0d7bab89e0d7c642b044651e64ed14a,
+      type: 3}
+    amountToPool: 10
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: Shelf2
+    objectToPool: {fileID: 2033245971504128333, guid: 5fd8f91140110a3489fdb4f7b1bb83e1,
+      type: 3}
+    amountToPool: 10
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: ShelfWall
+    objectToPool: {fileID: 5042878205363460737, guid: a7fe9159728633d40add11998f215b5b,
+      type: 3}
+    amountToPool: 10
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: StonePillar
+    objectToPool: {fileID: 2052883020919841867, guid: 2e93fa35e2c24724db76031fd1386d24,
+      type: 3}
+    amountToPool: 10
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: StoolRound
+    objectToPool: {fileID: 4159739386079735670, guid: 10e50994935830247a6009078184b843,
+      type: 3}
+    amountToPool: 10
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: TableSmall
+    objectToPool: {fileID: 7362930506998522478, guid: c31cf2559f26e18498742cb2c8ce8c0d,
+      type: 3}
+    amountToPool: 10
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: WoodenBeam
+    objectToPool: {fileID: 7365964472575548729, guid: 9d415c1ea8ee5374e923f63e59e17d0d,
+      type: 3}
+    amountToPool: 10
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: Bag
+    objectToPool: {fileID: 5200681163900939743, guid: 6d74876d99d459743af39429f3ef69b5,
+      type: 3}
+    amountToPool: 5
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: Barrel
+    objectToPool: {fileID: 2015911025408727119, guid: 3a1f6fe179f8ba44988b07c00347a404,
+      type: 3}
+    amountToPool: 5
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: BigChest
+    objectToPool: {fileID: 4667621565226552999, guid: 5b2b7644154db684f90f8ec9d13bbddc,
+      type: 3}
+    amountToPool: 5
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: LootableBox
+    objectToPool: {fileID: 8830423494080449595, guid: cbdf6fd8a493448b499baa9dbc4c572e,
+      type: 3}
+    amountToPool: 5
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: SmallChest
+    objectToPool: {fileID: 8403535146180394686, guid: 3b485493cf96f244cb0888b120b790c6,
+      type: 3}
+    amountToPool: 5
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: WeaponsRack
+    objectToPool: {fileID: 2116679816115253543, guid: 60ec8bdc3fb63e145bc392ab59b97aab,
+      type: 3}
+    amountToPool: 5
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: Pillar
+    objectToPool: {fileID: 8566179377662275855, guid: c8fc523f620c95448800594c881d6a52,
+      type: 3}
+    amountToPool: 10
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: Torch
+    objectToPool: {fileID: 5770176975614013388, guid: 646660189406546ba8e695eadd7bd30f,
+      type: 3}
+    amountToPool: 5
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: Doorway
+    objectToPool: {fileID: 6148952848944973538, guid: 3b14aa6445d5ae24f9bfbeed1047da9f,
+      type: 3}
+    amountToPool: 10
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: Floor
+    objectToPool: {fileID: 530872681371948013, guid: 8375988825974b54cafee7762da89964,
+      type: 3}
+    amountToPool: 10
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: Hall
+    objectToPool: {fileID: 8432386203019060530, guid: 4f00de39dcad9aa469a8afdb3b87af85,
+      type: 3}
+    amountToPool: 10
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: Ramp
+    objectToPool: {fileID: 2376233374545339603, guid: 1c863040a8f570b4588e9cbade093793,
+      type: 3}
+    amountToPool: 10
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: Wall
+    objectToPool: {fileID: 1151334594456591012, guid: 05bc011dcb02f0a47ac335019eee3d56,
+      type: 3}
+    amountToPool: 10
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: WallCorner
+    objectToPool: {fileID: 2716981015577257050, guid: d562a4a9265df314b83ae9bd3911e161,
+      type: 3}
+    amountToPool: 10
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: WallCornerSecret
+    objectToPool: {fileID: 1236153827061818472, guid: c3886d6737b89ba498644f13d2c17071,
+      type: 3}
+    amountToPool: 10
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: WallCornerWithColumns
+    objectToPool: {fileID: 8000265066821829986, guid: f0075b4e685911242bb20dbcb088173b,
+      type: 3}
+    amountToPool: 10
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: WallWithColumns
+    objectToPool: {fileID: 2851997443460289282, guid: 8147d72aefb6d394c98f72234b8007e0,
+      type: 3}
+    amountToPool: 10
+    shouldExpand: 1
+    pooledObjects: []
+  - poolName: ArrowsTrap
+    objectToPool: {fileID: 939397126409448183, guid: 8290cdf3a3d3a95478eb70f17a2d3ca5,
+      type: 3}
+    amountToPool: 5
+    shouldExpand: 1
+    pooledObjects: []

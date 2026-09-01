@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BigChestLocked
+  m_Controller: {fileID: 9100000, guid: b6e35e9fa462e4e52beda506d214964c, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 0745d295ba9ead64998eb9365d791fcd, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c2d4179717151cb4989cb57a407e7f41, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: fc164613715b542c2b16cbabdc28d487, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a0b651d7f751c5d488df84588c8f738e, type: 2}
